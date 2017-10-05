@@ -43,11 +43,11 @@
 
 >### (a) 將上面資料用最適當的結構儲存起來 請將姓與名分開儲存。
 
->> *I used list to store the data except name <br> I used dictionary to store firstname and lastname <br> The form is in "input2.txt"*
+>> *I used list to store the data , every element is string type except name <br> I used dictionary to store firstname and lastname <br> The form is in "input2.txt"*
 
 >### (b) 假設又招入兩個新手：常遇春、朱元璋，分別被編為 A578、A579，職位是教徒，單位是巨木堂，月薪是 22,000。請將這些資訊加入你的結構中
 
->> *function insert_data(data , input_str , flag) <br> When flag is set to false , input_str is the title of the form*
+>> *function insert_data(data , input_str , flag) <br> When flag is set to false , input_str is the title of the form ; and input_str separated by space<br> Ex : A578 常遇春 教徒 巨木堂 22,000*
 
 >### (c) 因為謝遜是教主的義父，常、朱兩人是教主的恩人，三人分別加薪 50%。請用程式執行此項工作。
 
