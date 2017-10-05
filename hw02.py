@@ -10,7 +10,7 @@ class seating2(seating):
     def delete_column(self , index):
         for i in self.seat : del(i[index])
 
-    def add_lastname(self,lastname , index):
+    def add_lastname_column(self,lastname , index):
         return  [i[index] + ' ' + lastname for i in self.seat]
             
         
@@ -23,7 +23,7 @@ def main():
     print('刪除第一排後 : '  ,  '\n'.join([str(i) for i in a]),sep='\n')
     #(c) 利用 b 的結果。假設最後一排的人，都姓 Smith。請把他們姓加上去，並且把這一排的名字取出，依次放在新表列中。
 
-    print('姓加上去後 : ' , a.add_lastname('Smith' , -1))
+    print('姓加上去後 : ' , a.add_lastname_column('Smith' , -1))
     a.search_seat(1 , 2)
 
 if __name__ == '__main__':
