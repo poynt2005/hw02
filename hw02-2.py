@@ -17,7 +17,7 @@ print(u'依單字的字母順序，把單字及其詞類的配對印在螢幕上
 print()
 
 #(b) 找出所有單字中包含 s 這個字母的字，並將其與詞類配對印在螢幕上。
-print(u'找出所有單字中包含 s 這個字母的字 : ' , ''.join(['{{{} : {}}}\n'.format(key,value) for key,value in d.items()]) , sep = '\n')
+print(u'找出所有單字中包含 s 這個字母的字 : ' , ''.join(['{{{} : {}}}\n'.format(key,value) for key,value in d.items() if 's' in key ]) , sep = '\n')
 
 
 
