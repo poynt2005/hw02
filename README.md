@@ -1,6 +1,6 @@
 # hw02
 ## 1. 繼續使用第一次作業中的座位表來並用一行程式來處理下面問題：
->### *The class "seating2" in hw02.py is inheritance from hw01.py "seating" <br> data stored in "input.txt" <br>Get seating by calling super class' constructor*
+>### *The class "seating2" in hw02.py is inheritance from hw01.py "seating" and data is stored in "input.txt" <br>Get seating by calling super class' constructor*
 >### (a) 取得每一列的第四個成員，依列序放在表列(list)。
 
 >>*method "get_row_members(self , index)" return the specific element from every row*
