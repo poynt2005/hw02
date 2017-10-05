@@ -24,7 +24,6 @@ def main():
     #(c) 利用 b 的結果。假設最後一排的人，都姓 Smith。請把他們姓加上去，並且把這一排的名字取出，依次放在新表列中。
 
     print('姓加上去後 : ' , a.add_lastname_column('Smith' , -1))
-    a.search_seat(1 , 2)
 
 if __name__ == '__main__':
     main()
